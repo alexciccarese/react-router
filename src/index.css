@@ -22,3 +22,11 @@
   color: white;
   font-size: 36px;
 }
+
+footer {
+  a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+  }
+}
