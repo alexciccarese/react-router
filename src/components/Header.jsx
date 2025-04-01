@@ -16,8 +16,8 @@ export default function Header() {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarID">
                         <div class="navbar-nav">
                           <NavLink className="nav-link active" to="/">Home</NavLink>
-                          <NavLink className="nav-link active" to="/Chisiamo">Chi siamo</NavLink>
-                          <NavLink className="nav-link active" to="/PostList">Posts</NavLink>
+                          <NavLink className="nav-link active" to="/ChiSiamo">Chi siamo</NavLink>
+                          <NavLink className="nav-link active" to="/PostList">Dolci</NavLink>
                             
                         </div>
                     </div>

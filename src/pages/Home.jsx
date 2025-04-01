@@ -9,10 +9,10 @@ export default function Home() {
       <main>
         <div className="jumbotron">
           <div class="container py-5">
-            <h1 class="display-5 fw-bold">Find your post</h1>
+            <h1 class="display-5 fw-bold">Vedi tutti i dolci</h1>
             <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque inventore aspernatur, unde laudantium similique cum fuga dolores qui quidem quisquam distinctio et laboriosam expedita magnam neque totam esse voluptatum. Nisi.</p>
             <Link to="/PostList" className="btn btn-primary btn-lg">
-            All Posts
+            Tutti i dolci
             </Link>
           </div>
         </div>

@@ -1,7 +1,7 @@
 @import 'bootstrap';
 @import 'bootstrap-icons';
 
-.first-content{
+.first-content {
   height: 50vh;
   background-color: grey;
   border-radius: 30px;
@@ -12,7 +12,7 @@
   font-size: 36px;
 }
 
-.second-content{
+.second-content {
   height: 50vh;
   background-color: rgb(41, 41, 41);
   border-radius: 30px;
@@ -24,10 +24,14 @@
 }
 
 footer {
-  
-  a{
+
+  a {
     text-decoration: none;
     color: white;
     line-height: 2rem;
+
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
