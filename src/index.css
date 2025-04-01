@@ -1,2 +1,24 @@
 @import 'bootstrap';
 @import 'bootstrap-icons';
+
+.first-content{
+  height: 50vh;
+  background-color: grey;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+}
+
+.second-content{
+  height: 50vh;
+  background-color: rgb(41, 41, 41);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+}
