@@ -31,8 +31,8 @@ export default function Posts() {
           <div className="row">
 
             {posts.map(post => (
-              <div className="col" key={`post-${post.slug}`}>
-                <Link to={`/posts/${post.slug}`}>
+              <div className="col" key={`post-${post.id}`}>
+                <Link to={`/posts/${post.id}`}>
                   <div className="card">
                     <img className="card-img-top" src={api_url + post.image} alt={post.title} />
                     <div className="card-body">

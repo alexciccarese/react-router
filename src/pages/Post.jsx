@@ -6,12 +6,12 @@ const api_url = 'http://localhost:3003'
 export default function Post() {
   const [post, setPost] = useState(null)
 
-  const { slug } = useParams()
-  console.log(slug);
+  const { id } = useParams()
+  console.log(id);
   
 
 useEffect(() => {
-  fetch(`${api_url}/posts/${slug}`)
+  fetch(`${api_url}/posts/${id}`)
   .then(res => res.json())
   .then(data => {
     console.log(data);

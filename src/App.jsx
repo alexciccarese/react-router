@@ -18,7 +18,7 @@ function App() {
             <Route path="/" Component={Home} />
             <Route path="/ChiSiamo" Component={ChiSiamo} />
             <Route path="/Posts" Component={Posts} />
-            <Route path="/Posts/:slug" Component={Post} />
+            <Route path="/Posts/:id" Component={Post} />
           </Route>
 
         </Routes>

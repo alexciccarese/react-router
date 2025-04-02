@@ -11,7 +11,7 @@ export default function Home() {
           <div class="container py-5">
             <h1 class="display-5 fw-bold">Vedi tutti i dolci</h1>
             <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque inventore aspernatur, unde laudantium similique cum fuga dolores qui quidem quisquam distinctio et laboriosam expedita magnam neque totam esse voluptatum. Nisi.</p>
-            <Link to="/PostList" className="btn btn-primary btn-lg">
+            <Link to="/Posts" className="btn btn-primary btn-lg">
               Tutti i dolci
             </Link>
           </div>
