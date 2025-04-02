@@ -18,24 +18,24 @@ export default function Footer() {
             <div className="col">
               LOREM
 
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group"><a href="">An item</a></li>
-                <li class="list-group"><a href="">A second item</a></li>
-                <li class="list-group"><a href="">A third item</a></li>
-                <li class="list-group"><a href="">A fourth item</a></li>
-                <li class="list-group"><a href="">And a fifth one</a></li>
+              <ul className="list-group list-group-flush mt-2">
+                <li className="list-group"><a href="">An item</a></li>
+                <li className="list-group"><a href="">A second item</a></li>
+                <li className="list-group"><a href="">A third item</a></li>
+                <li className="list-group"><a href="">A fourth item</a></li>
+                <li className="list-group"><a href="">And a fifth one</a></li>
               </ul>
             </div>
 
             <div className="col">
               LOREM
 
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group"><a href="">An item</a></li>
-                <li class="list-group"><a href="">A second item</a></li>
-                <li class="list-group"><a href="">A third item</a></li>
-                <li class="list-group"><a href="">A fourth item</a></li>
-                <li class="list-group"><a href="">And a fifth one</a></li>
+              <ul className="list-group list-group-flush mt-2">
+                <li className="list-group"><a href="">An item</a></li>
+                <li className="list-group"><a href="">A second item</a></li>
+                <li className="list-group"><a href="">A third item</a></li>
+                <li className="list-group"><a href="">A fourth item</a></li>
+                <li className="list-group"><a href="">And a fifth one</a></li>
               </ul>
             </div>
 

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 const api_url = 'http://localhost:3003'
 
-export default function PostList() {
+export default function Posts() {
   const [posts, setPost] = useState([])
 
   useEffect(() => {
@@ -31,12 +32,15 @@ export default function PostList() {
 
             {posts.map(post => (
               <div className="col" key={`post-${post.slug}`}>
-                <div className="card">
-                  <img className="card-img-top" src={api_url + post.image} alt={post.title} />
+                <Link to={`/posts/${post.slug}`}>
+                  <div className="card">
+                    <img className="card-img-top" src={api_url + post.image} alt={post.title} />
                     <div className="card-body">
                       {post.title}
                     </div>
-                </div>
+                  </div>
+                </Link>
+
               </div>
             ))}
           </div>

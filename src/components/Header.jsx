@@ -6,18 +6,18 @@ export default function Header() {
 
     <>
           <header>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><h2>PostList</h2></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+            <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
+                <div className="container">
+                    <a className="navbar-brand" href="#"><h2>PostList</h2></a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                         aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarID">
-                        <div class="navbar-nav">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarID">
+                        <div className="navbar-nav">
                           <NavLink className="nav-link active" to="/">Home</NavLink>
                           <NavLink className="nav-link active" to="/ChiSiamo">Chi siamo</NavLink>
-                          <NavLink className="nav-link active" to="/PostList">Dolci</NavLink>
+                          <NavLink className="nav-link active" to="/Posts">Dolci</NavLink>
                             
                         </div>
                     </div>

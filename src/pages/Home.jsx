@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import PostList from "./PostList"
+import PostList from "./Posts"
 
 export default function Home() {
 
@@ -12,7 +12,7 @@ export default function Home() {
             <h1 class="display-5 fw-bold">Vedi tutti i dolci</h1>
             <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque inventore aspernatur, unde laudantium similique cum fuga dolores qui quidem quisquam distinctio et laboriosam expedita magnam neque totam esse voluptatum. Nisi.</p>
             <Link to="/PostList" className="btn btn-primary btn-lg">
-            Tutti i dolci
+              Tutti i dolci
             </Link>
           </div>
         </div>
