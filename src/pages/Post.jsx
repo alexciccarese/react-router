@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 const api_url = 'http://localhost:3003'
 
 export default function Post() {
   const [post, setPost] = useState(null)
+  
+  const navigate = useNavigate()
 
   const { id } = useParams()
   console.log(id);
+
   
 
 useEffect(() => {
@@ -22,7 +25,7 @@ useEffect(() => {
     console.log('Error', err);
     
   })
-},[])
+},[id])
 
 
   return (
@@ -45,12 +48,23 @@ useEffect(() => {
                       </div>
                       <div className="col-12 col-md-7">
 
-                        <button className="back">
+                        <button className="back" onClick={() => navigate('/posts/')}>
                           <i className="bi bi-arrow-left"></i>
                         </button>
                         <h1>Post: {post.title}</h1>
                         <p>{post.content}</p>
                       </div>
+                      <div className="d-flex gap-4">
+                       <button className="back" onClick={() => navigate(`/Posts/${post.id - 1}`)}>
+                          <i className="bi bi-arrow-left"></i>
+                          Post precedente
+                        </button>
+                        <button className="back" onClick={() => navigate(`/Posts/${post.id + 1}`)}>
+                          Prossimo post
+                          <i className="bi bi-arrow-right"></i>
+                        </button> 
+                      </div>
+                      
                     </div>
                   </div>
                 </section>
